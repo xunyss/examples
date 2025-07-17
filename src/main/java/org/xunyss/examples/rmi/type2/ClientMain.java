@@ -13,9 +13,9 @@ public class ClientMain {
 			Request request = new Request("client_request_value");
 			Response response = service.request(request);
 			System.out.println("Client > response value : " + response.getValue());
-			
+
 			/**
-			 * ºñµ¿±âÈ£Ãâ
+			 * ë¹„ë™ê¸°í˜¸ì¶œ
 			 */
 			service.asynchronousRequest(new CallbackImpl(), request);
 		}
