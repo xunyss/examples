@@ -11,7 +11,7 @@ public class ServerMain {
 
 	public static void main(String[] args) {
 		try {
-			/**
+			/*
 			 * RMI Registry 실행 (생성)
 			 * rmiregistry.exe 를 실행하는 것 대신 아래와 같이 작성할 수 있음
 			 * 기본 포트번호 : 1099

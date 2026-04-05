@@ -14,7 +14,7 @@ public class ClientMain {
 			Response response = service.request(request);
 			System.out.println("Client > response value : " + response.getValue());
 
-			/**
+			/*
 			 * 비동기호출
 			 */
 			service.asynchronousRequest(new CallbackImpl(), request);
